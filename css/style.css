@@ -1,0 +1,209 @@
+@font-face {
+  font-family: Overpass;
+  src: url("../fonts/Overpass-Regular.ttf");
+}
+
+@font-face {
+  font-family: Ubuntu;
+  src: url("../fonts/Ubuntu-Regular.ttf");
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Ubuntu;
+}
+
+p {
+  font-size: 20px;
+  font-family: Overpass;
+}
+
+.row {
+  margin: 40px 0px;
+}
+
+nav {
+  background-color: #fe2d49 !important;
+  -webkit-box-shadow: 1px 1px 10px #474747;
+          box-shadow: 1px 1px 10px #474747;
+}
+
+.hero {
+  background-color: rgba(255, 29, 59, 0.85);
+  color: #fff;
+  height: 500px;
+  text-align: center;
+  border-radius: 0px 0px 50px 0px;
+  position: relative;
+}
+
+.hero .tagline {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.hero .tagline .header {
+  font-size: 35px;
+}
+
+.hero .tagline .sub-header {
+  font-size: 15px;
+}
+
+.about {
+  text-align: center;
+}
+
+.about h2 {
+  margin: 40px auto;
+}
+
+.about .card {
+  margin-bottom: 20px;
+}
+
+.about .card .art {
+  padding: 20px;
+}
+
+.about .card .art img {
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+.about .card .card-title {
+  color: #ff1d3b solid 1px !important;
+}
+
+.courses {
+  text-align: center;
+  background-color: #fe2d49;
+  color: #fff;
+  padding: 40px 0px;
+  border-radius: 50px 0px 50px 0px;
+}
+
+.courses h2 {
+  margin-bottom: 40px;
+}
+
+.courses .colSection img {
+  width: 80%;
+}
+
+.courses .colSection h4 {
+  margin: 30px auto 0px auto;
+}
+
+.courses .colSection h5 {
+  margin: 0px auto 30px auto;
+}
+
+.courses .colSection p {
+  margin: 0px auto 30px auto;
+}
+
+.contact {
+  padding-bottom: 40px;
+}
+
+.contact h2 {
+  text-align: center;
+  margin: 40px auto;
+}
+
+.contact h3 {
+  text-align: center;
+}
+
+.contact .primaryButton {
+  color: #fe2d49;
+  font-weight: bold;
+  border: #fe2d49 solid 1px;
+  border-radius: 50px;
+  width: 100px;
+}
+
+.contact textarea,
+.contact input {
+  border: #fe2d49 solid 1px;
+}
+
+.contact .row-contact-name {
+  margin: 10px 0px;
+}
+
+.contact .row-contact-name .col-firstname,
+.contact .row-contact-name .col-lastname {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.footer {
+  background-color: #c9152d;
+  border-radius: 40px 40px 0px 0px;
+}
+
+.footer p {
+  margin-bottom: 0px;
+  text-align: center;
+  color: #fff;
+  padding: 30px 0px;
+}
+
+/* Web View */
+@media only screen and (min-width: 768px) {
+  .hero {
+    text-align: left;
+  }
+  .hero .header {
+    font-size: 40px !important;
+  }
+  .hero .sub-header {
+    font-size: 20px !important;
+  }
+  .contact .row-contact-name .col-firstname {
+    padding-left: 0px;
+    padding-right: 5px;
+  }
+  .contact .row-contact-name .col-lastname {
+    padding-left: 5px;
+    padding-right: 0px;
+  }
+  .about .row-vision {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
+  .about img {
+    width: 300px !important;
+  }
+  .courses .info-abm,
+  .courses .info-humss {
+    text-align: left;
+  }
+  .courses .row-ict,
+  .courses .row-he {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
+  .courses .info-ict,
+  .courses .info-he {
+    text-align: right;
+  }
+  .courses img {
+    width: 300px !important;
+  }
+}
+/*# sourceMappingURL=style.css.map */
