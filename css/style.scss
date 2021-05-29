@@ -56,6 +56,12 @@ nav {
   }
 }
 
+marquee {
+  font-family: Overpass;
+  color: #fff;
+  font-size: 1em;
+}
+
 .about {
   text-align: center;
 
@@ -119,10 +125,19 @@ nav {
       margin: 0px auto 30px auto;
     }
   }
+
+  .primaryButton {
+    color: #fff;
+    border: #fff 1px solid;
+    border-radius: 50px;
+    font-weight: bold;
+    width: 150px;
+  }
 }
 
 .contact {
   padding-bottom: 40px;
+
   h2 {
     text-align: center;
     margin: 40px auto;
@@ -138,6 +153,11 @@ nav {
     border: #fe2d49 solid 1px;
     border-radius: 50px;
     width: 100px;
+  }
+
+  a {
+    text-decoration: none;
+    color: #fe2d49;
   }
 
   textarea,
@@ -159,6 +179,8 @@ nav {
 .footer {
   background-color: #c9152d;
   border-radius: 40px 40px 0px 0px;
+  padding-top: 10px;
+  overflow: hidden;
 
   p {
     margin-bottom: 0px;
@@ -172,6 +194,25 @@ nav {
 section.content {
   min-height: 95vh;
   padding: 30px;
+
+  .header {
+    margin-bottom: 30px;
+  }
+
+  .banner {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .ict-image {
+    width: 100%;
+  }
+
+  .offerings {
+    width: 75%;
+    display: block;
+    margin: auto;
+  }
 }
 
 /* Web View */
@@ -229,6 +270,20 @@ section.content {
 
     img {
       width: 300px !important;
+    }
+  }
+
+  section.content {
+    .banner {
+      max-width: 400px;
+      float: right;
+      margin: 0px 0px 50px 50px;
+    }
+
+    .ict-image {
+      max-width: 400px;
+      float: left;
+      margin: 0px 50px 50px 0px;
     }
   }
 }
