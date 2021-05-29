@@ -166,6 +166,12 @@ nav {
   text-align: center;
   color: #fff;
   padding: 30px 0px;
+  font-size: 1em;
+}
+
+section.content {
+  min-height: 95vh;
+  padding: 30px;
 }
 
 /* Web View */
